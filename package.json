@@ -1,0 +1,28 @@
+{
+  "name": "sih-cipher-serpents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "llm": "npx flowise start",
+    "format": "prettier --write .",
+    "dev": "concurrently \"npm run preview\" \"npm run llm\"",
+    "preview": "vite",
+    "start": "concurrently \"npm run preview\" \"npm run llm\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hr7657316/SIH-ciper-serpents.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hr7657316/SIH-ciper-serpents/issues"
+  },
+  "homepage": "https://github.com/hr7657316/SIH-ciper-serpents#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "prettier": "^3.0.3",
+    "vite": "^4.4.9"
+  }
+}
